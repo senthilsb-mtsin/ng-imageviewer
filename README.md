@@ -67,6 +67,10 @@ Modify the ```yourcomponent.component.html``` file; in this demo project it is``
 
 Add #_keyword_ before the ```div``` to refenece it from the ```xcimageviewer/xcimageviewer.component.ts```
 
+The ```image``` and ```thumbnail``` are fetched from  ```assets/images``` folder in this Angular Application.
+
+You can reference any valid _URL_
+
 ```html
 <div class="docs-galley mb-3" style="width: 800px; height: 600px;">
     <div id="galley" #galley style="visibility: hidden">
@@ -131,3 +135,17 @@ export class XcimageviewerComponent implements OnInit, AfterViewInit, OnDestroy 
 }
 
 ```
+## Browser support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Opera (latest)
+- Edge (latest)
+- Internet Explorer 9+
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
+
+[⬆ back to top](#table-of-contents)
