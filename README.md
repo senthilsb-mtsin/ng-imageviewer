@@ -147,5 +147,3 @@ export class XcimageviewerComponent implements OnInit, AfterViewInit, OnDestroy 
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
-
-[⬆ back to top](#table-of-contents)
